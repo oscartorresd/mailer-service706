@@ -9,12 +9,12 @@ app = Flask(__name__)
 SENDGRID_API_KEY = os.getenv("SENDGRID_API_KEY")
 
 DESTINATARIOS = [
-    "laura@example.com",
-    "administracion@example.com"
+    "odtorres_7@hotmail.com",
+    "odtorresda91@gmail.com"
 ]
 
-COPIA = "oscar.torres@example.com"
-REMITENTE = "tu-correo-verificado@sendgrid.net"
+COPIA = "oscardavidtorresdaza@gmail.com"
+REMITENTE = "oscardavidtorresdaza@gmail.com"
 
 
 @app.route('/', methods=['POST'])
